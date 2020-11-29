@@ -13,12 +13,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Avaliação P1</title>
+        <title>Avaliação P2</title>
     </head>
     <body>
         <h1>Programação Orientada a Objeto</h1>
         <h2>Nome: Luciano Alves Da Silva</h2>
         <h2>RA: 1290481823025</h2>
-        <h2>Quantidade de Disciplinas: <%= Disciplina.getList().size() %> </h2>
+        <h2>Quantidade de Disciplinas: <% 
+            try {
+                out.print(Disciplina.getList().size());
+            }catch(Exception ex) {
+                
+            }
+            %> </h2>
     </body>
 </html>
