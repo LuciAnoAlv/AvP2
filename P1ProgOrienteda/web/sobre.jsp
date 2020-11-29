@@ -15,6 +15,6 @@
         <h1>Programação Orientada a objeto</h1>
         <h2>Nome: Luciano Alves Da Silva</h2>
         <h2>RA: 1290481823025</h2>
-        <h2><a href="https://github.com/LuciAnoAlv/REPOP1LucianoAlves" target="_blank">Repositorio Pessoal</a></h2>
+        <h2><a href="https://github.com/LuciAnoAlv/AvP2" target="_blank">Repositorio Pessoal</a></h2>
     </body>
 </html>
