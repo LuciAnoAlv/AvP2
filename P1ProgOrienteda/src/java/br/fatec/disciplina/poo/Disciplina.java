@@ -77,7 +77,7 @@ public class Disciplina {
         DbListener.createTable();
         ResultSet rs = stmt.executeQuery("SELECT * FROM disciplina");
         while(rs.next()){
-            list.add(rs.getString("name"));
+            list.add(rs.getString("nome"));
         }
         rs.close();
         stmt.close();
@@ -96,7 +96,7 @@ public class Disciplina {
         Class.forName(CLASS_NAME);
         Connection con = DriverManager.getConnection(URL);
         Statement stmt = con.createStatement();
-        stmt.execute("delete from disciplina where name = '"+name+"'");
+        stmt.execute("delete from disciplina where nome = '"+name+"'");
         stmt.close();
         con.close();
     }
