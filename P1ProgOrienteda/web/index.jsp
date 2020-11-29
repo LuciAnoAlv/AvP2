@@ -7,7 +7,7 @@
 <%@page import="br.fatec.disciplina.poo.Disciplina"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-<%Disciplina.getList().clear(); %>
+
 <!DOCTYPE html>
 
 <html>
